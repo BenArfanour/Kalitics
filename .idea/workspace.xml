@@ -13,6 +13,9 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
@@ -120,6 +123,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1kt2c9r3W3sRKTEDDCE6fyM5Lqv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -158,7 +162,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606497637620</updated>
       <workItem from="1606497639086" duration="3131000" />
-      <workItem from="1606505668927" duration="12403000" />
+      <workItem from="1606505668927" duration="13001000" />
     </task>
     <servers />
   </component>
