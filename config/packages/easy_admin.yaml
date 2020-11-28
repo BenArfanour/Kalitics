@@ -1,0 +1,48 @@
+easy_admin:
+  site_name: Kalitics Technical Test
+  design:
+    assets:
+
+      css: ['https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.0/css/bootstrap-datepicker.css']
+      js: ['https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js','https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.0/js/bootstrap-datepicker.min.js']
+
+    form_theme: # Both themes are needed for ckeditor integration
+      - "@EasyAdmin/form/bootstrap_4.html.twig"
+    menu:
+      - label: 'utilisateurs'
+        icon: 'users'
+        entity: 'Users'
+      - label: 'Pointages'
+        icon: 'dollar'
+        entity: 'Pointages'
+      - label: 'Chantiers'
+        icon: 'cubes'
+        entity: 'Chantiers'
+
+  entities:
+      Users:
+        class: App\Entity\Users
+        form:
+          fields:
+            - name
+            - familyName
+            - matricule
+
+
+      Pointages:
+        class: App\Entity\Pointages
+        form:
+          fields:
+            - date
+            - duration
+            - user
+            - chantier
+
+
+      Chantiers:
+        class: App\Entity\Chantiers
+        form:
+          fields:
+            - name
+            - adress
+            - startDate
